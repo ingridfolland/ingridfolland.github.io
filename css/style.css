@@ -1,0 +1,91 @@
+/*This is what doing a CSS comment looks like*/
+
+body {
+	background: rgb(255, 255, 255);
+	background-image: url(../images/background.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: 'Sanchez', serif;
+
+
+}
+
+.main {
+	background: rgba(255,255,255,0.5);
+	width: 600px;
+	margin: 0 auto; 
+	padding: 40px;
+	border-radius: 10px;
+
+}
+
+.surname {
+	font-style: italic; 
+}
+h1	{
+	font-family: 'Ropa Sans', sans-serif;
+	text-shadow: 10px 10px 20px indianred;
+	text-align: center;
+	font-size: 40px;
+	margin: 0;
+}
+
+h2	{
+	text-align: center;
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	font-size: 20px;
+	border-bottom: 1px solid black;
+	padding-bottom: 20px;
+}
+h3	{
+	margin-bottom: 0;
+	cursor: pointer;
+}
+
+h3 + * {
+	display: none; 
+}
+
+img {
+	/*centering the image, display: block tells the browser how we want the element to behave (like a block)*/
+	display: block; 
+	margin: 0 auto;
+/*	border: 10px solid indianred;*/	
+/*	padding: 10px;*/
+/*	background: rgb(#ce5740);*/
+	border-radius:50%;
+	width: 300px;
+	transition: transform .7s;
+
+
+
+}
+
+p,
+ol,
+ul {
+	line-height: 1.6;
+	list-style: none;
+	padding-left: 0;
+}
+
+a	{
+	font-weight: bold;
+	text-decoration: none;
+	color: green;
+}
+
+a:hover	{
+/*	text-decoration: underline;
+	color: indianred;*/
+		text-shadow: 0 0 20px indianred;
+
+	
+}
+
+img:hover	{
+	box-shadow: 0 0 100px indianred;
+	/*transform: rotateZ(360deg) scale(1.5);*/
+}
